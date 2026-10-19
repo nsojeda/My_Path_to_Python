@@ -1,0 +1,2 @@
+- **Function:** A standalone block of code that performs a task (e.g., `print('')`).
+- **Method:** A function that belongs to an object and operates on that object’s data (e.g., `print(message.lower())`).

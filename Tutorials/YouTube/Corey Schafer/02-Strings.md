@@ -99,7 +99,9 @@ print("""
 # String Length and Indexing
 ---
 ## Length
-You can use len( ) to find the length, the number of letter in a string or variable
+You can use len( ) to find the length, the number of characters, in a string or variable but adding inside the brackets as an argument.
+
+Arguments are values you pass into a function or method using parentheses ( )
 
 ```python
 
@@ -157,6 +159,28 @@ print(message[6:])
 
 # Useful String Methods
 ---
+A Method is like a function that belongs to an object, like a variable. It performs a task on the object
+
+## .lower() and .upper()
+If we want our variable (message) to all lower case, we can add .lower() behind it.
+For all upper case, we add .upper()
+
+```python
+print(message)
+
+print(message.lower())
+
+print(message.upper())
+```
+
+## .count()
+If we wanted to know how many time a word or character is used, we can use .count() and put the word or character in the brackets ( ) as an argument.
+
+```python
+print(message.count('Hello'))
+
+print(message.count('l'))
+```
 
 # Replacing String Content
 ---
