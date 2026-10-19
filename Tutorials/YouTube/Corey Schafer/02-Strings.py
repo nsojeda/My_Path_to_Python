@@ -89,7 +89,11 @@ print(message[0])
 print(message[10])
 # print(message[11]) IndexError: string index out of range
 
-
+print('\n\n')
+print(hr)
+print('Slicing Strings')
+print(hr)
+print('\n\n')
 
 print(message[0:5])
 

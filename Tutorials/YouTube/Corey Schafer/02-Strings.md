@@ -102,7 +102,7 @@ print("""
 You can use len( ) to find the length, the number of letter in a string or variable
 
 ```python
-message = "Hello World"
+
 print(len(message))
 
 print(len("""Bobby's World
@@ -111,14 +111,13 @@ that aired from 1990 to 1998. """))
 ```
 
 ## Indexing
-Every letter in string or variable is index with a number starting with 0. 
+Every character in a variable is index with a number starting with 0. 
 
-We can print the letter by know it's index. 
+We can print the characters by know it's index, and putting it in square brackets ( \[ ] )
 
 So with our message the letter of the first index (index 0) is H and our last letter (index10) is d
 
 ```python
-message = "Hello World"
 
 print(message[0])
 
@@ -135,7 +134,26 @@ print(message[11])
 
 # Slicing Strings
 ---
+If we only want part of our message, or variable, let say we only want Hello. Then in square brackets ( \[ ] )  we can add the first index we want (H or 0) a colon ( : ) and the last index we want ( o or 4) +1 (5)
 
+```python
+
+print(message[0:5])
+```
+
+now we could leaving a blank before the colon ( : ) this will let python know to start at index 0 or H 
+
+```python
+print(message[ :5])
+print(message[:5])
+```
+
+The same thing goes for the last index, if leaving a blank after the colon ( : ). If we want World, we would enter index 6 (W) and python will go to the end. 
+
+```python
+print(message[6: ])
+print(message[6:])
+```
 
 # Useful String Methods
 ---
