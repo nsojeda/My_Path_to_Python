@@ -126,12 +126,12 @@ print(message[10])
 
 ```
 
-If we try to print an index that's not in the range of our message, we get an IndexError: string index out of range
+If we try to print an index that's not in the range/doesn't exist, of our message, we get an... 
+IndexError: string index out of range
 
 ```python
 print(message[11])
 ```
-
 
 # Slicing Strings
 ---
@@ -142,6 +142,7 @@ print(message[11])
 
 # Replacing String Content
 ---
+
 # String Concatenation
 ---
 
