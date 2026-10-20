@@ -139,7 +139,7 @@ print(message[11])
 If we only want part of our message, or variable, let say we only want Hello. Then in square brackets ( \[ ] )  we can add the first index we want (H or 0) a colon ( : ) and the last index we want ( o or 4) +1 (5)
 
 ```python
-
+print(message)
 print(message[0:5])
 ```
 
@@ -167,9 +167,7 @@ For all upper case, we add .upper()
 
 ```python
 print(message)
-
 print(message.lower())
-
 print(message.upper())
 ```
 
@@ -177,22 +175,84 @@ print(message.upper())
 If we wanted to know how many time a word or character is used, we can use .count() and put the word or character in the brackets ( ) as an argument.
 
 ```python
+print(message)
 print(message.count('Hello'))
-
 print(message.count('l'))
+```
+
+# .find()
+
+
+```python
+print(message)
+print(message.find('World'))
+print(message.find('Universe'))
 ```
 
 # Replacing String Content
 ---
 
+
+```python
+new_message = message.replace('World', 'Universe')
+print(message.replace('World', 'Universe'))
+print(new_message)
+```
+
 # String Concatenation
 ---
+
+
+```python
+greeting = "Hello"
+name = "Michael"
+greeting_message = greeting + ", " + name
+
+print (greeting)
+print (name)
+print (greeting_message)
+print (greeting + ", " + name)
+print (greeting + ", " + name + ". Welcome!")
+```
 
 # String Formatting
 ---
 
+
+```python
+format_greeting = "{}, {}. Welcome!".format(greeting, name)
+
+print(format_greeting)
+```
+
 # Using F-strings
 ---
 
+
+```python
+f_string_greeting = f"{greeting}, {name}. Welcome!"
+
+print(f_string_greeting)
+print(f"{greeting}, {name.upper()}. Welcome!")
+```
+
 # Built-in Documentation
 ---
+
+
+## dir()
+```python
+print(dir(name))
+```
+
+
+## help()
+```python
+print(help(str))
+```
+
+
+
+```python
+print(help(str.lower))
+```

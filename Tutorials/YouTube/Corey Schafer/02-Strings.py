@@ -4,6 +4,7 @@ This is more of a scratchpad of snippets from the video.
 See 02-Strings.md for my notes.
 '''
 hr = "----------------------"
+print('\n\n')
 print(hr)
 print('Variable Naming Conventions')
 print(hr)
