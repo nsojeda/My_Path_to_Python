@@ -21,29 +21,29 @@ my_path_to_python/
 │   └── Notes.ipynb
 ├── Exercises/
     └── 50 days of code/ (Not Started)
+        └── Challenge 1-11.md
         └── README.md (W.I.P.)
 └── Tutorials/
-    └── PY4E/ (Not Started)
+    └── Python_for_Everyone/ (Not Started)
         └── README.md (W.I.P.)
-    └── YouTube/
-        └── Corey Schafer/
-            ├── 01 - intro.py
-            ├── 01 - Python Tutorial for Beginners 1 - Install and Setup for Mac and Windows.md
-            ├── 02 - strings.py
-            ├── 02 - Python Tutorial for Beginners 2 - Strings - Working with Textual Data.
-            └── Python Tutorial for Beginners.ipynb
-        └── Data with Baraa/
-            ├── 03 - Python Comments - Visually Explained - Python Course 3.md (not Started)
-            ├── 03 - Comments.py (Not Started)
+    └── Corey Schafer - Python Programming Beginner Tutorials
+        ├── 01 - intro.py
+        ├── 01 - Install and Setup.md
+        ├── 02 - strings.py
+        ├── 02 - Strings.md
+    └── Data with Baraa - Python Ultimate Course (not Started)
+        ├── 03 - Comments.md
+        ├── 03 - Comments.py
 ```
 
 ## How I Organize Things
 
 - **Tutorials** are grouped by source, then by creator/title:
-  - `YouTube/` — Channel Name
+  - `Curriculum/` — Course work and projects that could lead to Certifications
+  - `YouTube/` — Channel Name - Course/Tutorials
   - `Websites/` — Site Name (not added yet)
   - `Books/` — Book/Article Title (not added yet)
-  - `Other/` — PY4E - and Miscellaneous sources (not added yet)
+
 - **Notes** — stored in `Python_Knowledge/` (Obsidian Vault).
 - **Exercises** — grouped by source or concept, representing distinct mini-projects.
 
