@@ -23,11 +23,13 @@ tags:
   - F-strings
   - Documentation
 ---
+
 # Variable Naming Conventions
 ---
+
 ## Conventions
 
-- Variables are usually all lowercase 
+- Variables are usually all lowercase
 - If a Variables has multiple words then we separate those with underscore ( _ )
 - Variable names should be as descriptive as possible
 
@@ -41,19 +43,23 @@ print(message)
 print(my_message)
 print(pi)
 ```
+
 ## Bad Practices
 
 - Single Letter
-	  May be valid variable name, but if anyone reads the code now wouldn't know what value it's supposed to hold
+    May be valid variable name, but if anyone reads the code now wouldn't know what value it's supposed to hold
 
 ```python
 m = "Hello World"
 
 print(m)
 ```
+
 # String Quotes and Escaping
 ---
+
 ## String Quotes
+
 Strings can made by using Single( ' ' ) or double( " " ) quotes.
 
 ```python
@@ -61,7 +67,7 @@ print('Hello World')
 print("Hello World")
 ```
 
-You can alternate quotes depending on the text going in the string. 
+You can alternate quotes depending on the text going in the string.
 
 ```python
 print('He said, "Hello World"')
@@ -76,6 +82,7 @@ print('Bobby's World!)
 ```
 
 ## Escaping
+
 You can use a backslash( \ ) escape or tell the interrupter to not to use that quote to close the string.
 
 ```python
@@ -98,7 +105,9 @@ print("""
 
 # String Length and Indexing
 ---
+
 ## Length
+
 You can use len( ) to find the length, the number of characters, in a string or variable but adding inside the brackets as an argument.
 
 Arguments are values you pass into a function or method using parentheses ( )
@@ -113,7 +122,8 @@ that aired from 1990 to 1998. """))
 ```
 
 ## Indexing
-Every character in a variable is index with a number starting with 0. 
+
+Every character in a variable is index with a number starting with 0.
 
 We can print the characters by know it's index, and putting it in square brackets ( \[ ] )
 
@@ -127,7 +137,7 @@ print(message[10])
 
 ```
 
-If we try to print an index that's not in the range/doesn't exist, of our message, we get an... 
+If we try to print an index that's not in the range/doesn't exist, of our message, we get an...
 IndexError: string index out of range
 
 ```python
@@ -143,14 +153,14 @@ print(message)
 print(message[0:5])
 ```
 
-now we could leaving a blank before the colon ( : ) this will let python know to start at index 0 or H 
+now we could leaving a blank before the colon ( : ) this will let python know to start at index 0 or H
 
 ```python
 print(message[ :5])
 print(message[:5])
 ```
 
-The same thing goes for the last index, if leaving a blank after the colon ( : ). If we want World, we would enter index 6 (W) and python will go to the end. 
+The same thing goes for the last index, if leaving a blank after the colon ( : ). If we want World, we would enter index 6 (W) and python will go to the end.
 
 ```python
 print(message[6: ])
@@ -162,6 +172,7 @@ print(message[6:])
 A Method is like a function that belongs to an object, like a variable. It performs a task on the object
 
 ## .lower() and .upper()
+
 If we want our variable (message) to all lower case, we can add .lower() behind it.
 For all upper case, we add .upper()
 
@@ -172,6 +183,7 @@ print(message.upper())
 ```
 
 ## .count()
+
 If we wanted to know how many time a word or character is used, we can use .count() and put the word or character in the brackets ( ) as an argument.
 
 ```python
@@ -180,8 +192,11 @@ print(message.count('Hello'))
 print(message.count('l'))
 ```
 
-# .find()
+## .find()
 
+If we wanted to what index a word starts you can use the .find() method, and pass the word as an argument. it will output the index it starts.
+
+but if the word doesn't exist you'll get  a -1
 
 ```python
 print(message)
@@ -192,16 +207,23 @@ print(message.find('Universe'))
 # Replacing String Content
 ---
 
+lets say you want to replace a world with Universe.
+
+You would use the .replace(argument1, argument2 ) method. this requires 2 arguments. The first one is the world you want to replace (World), and it's replacement (Universe).
+
+You can also use this to make a new variable.
 
 ```python
-new_message = message.replace('World', 'Universe')
 print(message.replace('World', 'Universe'))
+print(message)
+new_message = message.replace('World', 'Universe')
 print(new_message)
 ```
 
 # String Concatenation
 ---
 
+Concatenation is how you and combine variable together or with additional character, words or strings.
 
 ```python
 greeting = "Hello"
@@ -217,7 +239,9 @@ print (greeting + ", " + name + ". Welcome!")
 
 # String Formatting
 ---
+An easier and cleaner way to Concatenate variable in to strings is by using formatted strings.
 
+basically you type out you string and using curly braces {} as place holders. then at the end you use .format(variable)
 
 ```python
 format_greeting = "{}, {}. Welcome!".format(greeting, name)
@@ -227,7 +251,11 @@ print(format_greeting)
 
 # Using F-strings
 ---
+F-strings are a newer (introduce with python 3.6) and even easier way to concatenate variable in to strings.
 
+You start with an f then wright you string still using curly braces {} but you'll place your variable inside the curly braces, {greeting}
+
+no need to add .format
 
 ```python
 f_string_greeting = f"{greeting}, {name}. Welcome!"
@@ -239,19 +267,25 @@ print(f"{greeting}, {name.upper()}. Welcome!")
 # Built-in Documentation
 ---
 
-
 ## dir()
+
+this shows you all the available methods and attributes for a variable, but not what they do
+
 ```python
 print(dir(name))
 ```
 
-
 ## help()
+
+The built-in help() function launches Python's interactive help system, letting you look up documentation for methods, functions, classes, and keywords.
+
+This function doesn't work on variable
+
 ```python
-print(help(str))
+help(str)
 ```
 
-
+you can pass a methods with a function to get that part of the documentation
 
 ```python
 print(help(str.lower))
