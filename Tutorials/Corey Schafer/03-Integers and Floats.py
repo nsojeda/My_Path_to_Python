@@ -79,13 +79,15 @@ print('Order of Operations')
 print(hr)
 print('\n\n')
 
-
+print(3*2+1)
+print(3*(2+1))
 
 print('\n')
 print(hr)
 print('Test/Extra Exercises Not in Video')
 
-
+print(3*(2+1)/(2-1))
+print(3*2+1/2-1)
 
 print(hr)
 print('\n')
@@ -96,13 +98,26 @@ print('Incrementing Variables')
 print(hr)
 print('\n\n')
 
+num2 = 1
+print(num2)
+num2 = num2 + 1
+print(num2)
 
+num2 += 1
+print(num2) 
+
+num2 *= 10
+print(num2)
 
 print('\n')
 print(hr)
 print('Test/Extra Exercises Not in Video')
 
-
+print(num2)
+num2 /= 10
+print(num2)
+num2 -= 1
+print(num2)
 
 print(hr)
 print('\n')
@@ -113,13 +128,16 @@ print('Built-in Number Functions')
 print(hr)
 print('\n\n')
 
+print(abs(-3))
+print(round(3.75))
+print(round(3.75,1))
 
 
 print('\n')
 print(hr)
 print('Test/Extra Exercises Not in Video')
 
-
+print(abs(num2))
 
 print(hr)
 print('\n')
@@ -130,13 +148,36 @@ print('Comparison Operators')
 print(hr)
 print('\n\n')
 
+# https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt
+# Comparisons:
+# Equal:            3 == 2
+# Not Equal:        3 != 2
+# Greater Than:     3 > 2
+# Less Than:        3 < 2
+# Greater or Equal: 3 >= 2
+# Less or Equal:    3 <= 2
 
+num3 = 3
+num4 = 2
+print(num3 == num4)
+print(num3 != num4)
+print(num3 > num4)
+print(num3 < num4)
+print(num3 >= num4)
+print(num3 <= num4)
 
 print('\n')
 print(hr)
 print('Test/Extra Exercises Not in Video')
 
-
+print(num2) 
+print(num4)
+print(num2 == num4)
+print(num2 != num4)
+print(num2 > num4)
+print(num2 < num4)
+print(num2 >= num4)
+print(num2 <= num4)
 
 print(hr)
 print('\n')
@@ -146,3 +187,28 @@ print(hr)
 print('Type Casting')
 print(hr)
 print('\n\n')
+
+num5 = '100'
+num6 = '200'
+
+print(num5 + num6)
+
+num7 = '100'
+num8 = "200"
+
+num7 = int(num7)
+num8 = int(num8)
+print(num7 + num8)
+
+print('\n')
+print(hr)
+print('Test/Extra Exercises Not in Video')
+
+
+print(int(num5) + int(num6))
+print(int(num5 + num6))
+
+print(int(num2) + num8)
+
+print(hr)
+print('\n')
