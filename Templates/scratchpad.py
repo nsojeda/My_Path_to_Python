@@ -2,8 +2,7 @@
 Source:
 Title:
 Description:
-This is more of a scratchpad of snippets for this source.
-See matching .md for my notes.
+This is a scratchpad of snippets for this source.
 '''
 hr = "----------------------"
 
