@@ -12,7 +12,14 @@ The classic first program for all programs
 
 "print" is function that can display a programs output on the screen.
 
- Strings are a data type used for words. they can identified by " " or ' '.
+# Strings
+
+A string is a sequence of characters. 
+A character is a single symbol such as a letter, number, punctuation, space, etc.
+Strings are also a data type. 
+ 
+They are enter/writing inside " " or ' '.
+ 
 ```python
 print('Hello World')
 print ("Hello Python")
