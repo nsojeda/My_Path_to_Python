@@ -95,307 +95,171 @@ print('Modulus: 5 % 2')
 print(5 % 2)
 ```
 
-  
+**Test/Extra Exercises Not in Video**
 
-print('\n')
-
-print(hr)
-
-print('Test/Extra Exercises Not in Video')
-
+```python
 print('Modulus: 2 % 3')
-
 print(2 % 3)
 
 print('Modulus: 3 % 3')
-
 print(3 % 3)
 
 print('Modulus: 4 % 3')
-
 print(4 % 3)
 
 print('Modulus: 5 % 3')
-
 print(5 % 3)
 
-print(hr)
+```
 
-  
-  
+# Order of Operations
+---
 
-print('\n\n')
-
-print(hr)
-
-print('Order of Operations')
-
-print(hr)
-
-print('\n\n')
-
-  
-
+```python
 print(3*2+1)
-
 print(3*(2+1))
+```
 
-  
+**Test/Extra Exercises Not in Video**
 
-print('\n')
-
-print(hr)
-
-print('Test/Extra Exercises Not in Video')
-
-  
-
+```python
 print(3*(2+1)/(2-1))
-
 print(3*2+1/2-1)
+```
 
-  
+# Incrementing Variables
+---
 
-print(hr)
-
-print('\n')
-
-  
-
-print('\n\n')
-
-print(hr)
-
-print('Incrementing Variables')
-
-print(hr)
-
-print('\n\n')
-
-  
-
+```python
 num2 = 1
-
 print(num2)
 
 num2 = num2 + 1
-
 print(num2)
-
-  
 
 num2 += 1
-
 print(num2)
-
-  
 
 num2 *= 10
-
 print(num2)
+```
 
-  
+**Test/Extra Exercises Not in Video**
+Incrementing Variables: 
+	Addition: x += 2
+	Subtraction: x -= 2
+	Multiplication: x *= 2
+	Division: x /=2
+	Floor Division: x //= 2
+	Exponent: x \*\*= 2
+	Modulus: x %= 2
+	
+```python
+x=10
+print(x)
 
-print('\n')
+x += 2
+print(x)
 
-print(hr)
+x -= 2
+print(x)
 
-print('Test/Extra Exercises Not in Video')
+x *= 2
+print(x)
 
-  
+x /=2
+print(x)
 
-print(num2)
+x //= 2
+print(x)
 
-num2 /= 10
+x **= 2
+print(x)
 
-print(num2)
+x %= 2
+print(x)
+```
 
-num2 -= 1
+# Built-in Number Functions
+---
 
-print(num2)
-
-  
-
-print(hr)
-
-print('\n')
-
-  
-
-print('\n\n')
-
-print(hr)
-
-print('Built-in Number Functions')
-
-print(hr)
-
-print('\n\n')
-
-  
-
+```python
 print(abs(-3))
 
 print(round(3.75))
 
 print(round(3.75,1))
+```
 
-  
-  
+**Test/Extra Exercises Not in Video**
 
-print('\n')
-
-print(hr)
-
-print('Test/Extra Exercises Not in Video')
-
-  
-
+```python
 print(abs(num2))
+```
 
-  
+# Comparison Operators
+---
 
-print(hr)
+https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt
+Comparisons:
+    Equal:            3 == 2
+    Not Equal:        3 != 2
+    Greater Than:     3 > 2
+    Less Than:        3 < 2
+    Greater or Equal: 3 >= 2
+    Less or Equal:    3 <= 2
 
-print('\n')
 
-  
-
-print('\n\n')
-
-print(hr)
-
-print('Comparison Operators')
-
-print(hr)
-
-print('\n\n')
-
-  
-
-# https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt
-
-# Comparisons:
-
-# Equal:            3 == 2
-
-# Not Equal:        3 != 2
-
-# Greater Than:     3 > 2
-
-# Less Than:        3 < 2
-
-# Greater or Equal: 3 >= 2
-
-# Less or Equal:    3 <= 2
-
-  
-
+```python
 num3 = 3
-
 num4 = 2
 
 print(num3 == num4)
-
 print(num3 != num4)
-
 print(num3 > num4)
-
 print(num3 < num4)
-
 print(num3 >= num4)
-
 print(num3 <= num4)
+```
 
-  
+**Test/Extra Exercises Not in Video**
 
-print('\n')
-
-print(hr)
-
-print('Test/Extra Exercises Not in Video')
-
-  
-
+```python
 print(num2)
-
 print(num4)
 
 print(num2 == num4)
-
 print(num2 != num4)
-
 print(num2 > num4)
-
 print(num2 < num4)
-
 print(num2 >= num4)
-
 print(num2 <= num4)
+```
 
-  
+# Type Casting
+---
 
-print(hr)
-
-print('\n')
-
-  
-
-print('\n\n')
-
-print(hr)
-
-print('Type Casting')
-
-print(hr)
-
-print('\n\n')
-
-  
-
+```python
 num5 = '100'
-
 num6 = '200'
-
-  
 
 print(num5 + num6)
 
-  
-
 num7 = '100'
-
 num8 = "200"
 
-  
-
 num7 = int(num7)
-
 num8 = int(num8)
 
 print(num7 + num8)
+```
 
-  
+**Test/Extra Exercises Not in Video**
 
-print('\n')
-
-print(hr)
-
-print('Test/Extra Exercises Not in Video')
-
-  
-  
-
+```python
 print(int(num5) + int(num6))
 
 print(int(num5 + num6))
 
-  
-
 print(int(num2) + num8)
-
-  
-
-print(hr)
-
-print('\n')
+```
