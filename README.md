@@ -39,11 +39,10 @@ my_path_to_python/
 ## How I Organize Things
 
 - **Tutorials** are grouped by source, then by creator/title:
-  - `Curriculum/` — Course work and projects that could lead to Certifications
+  - `Curriculum/` — Course work and projects, that have Grade Assignments that lead to Certifications
   - `YouTube/` — Channel Name - Course/Tutorials
   - `Websites/` — Site Name (not added yet)
   - `Books/` — Book/Article Title (not added yet)
-
 - **Notes** — stored in `Python_Knowledge/` (Obsidian Vault).
 - **Exercises** — grouped by source or concept, representing distinct mini-projects.
 
