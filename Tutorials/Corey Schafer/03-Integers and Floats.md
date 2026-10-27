@@ -14,6 +14,9 @@ tags:
   - Integers
   - Floats
   - type_casting
+  - module_arithmetic
+  - Order_of_Operations
+  - incrementing_variables
 ---
 # Introduction and Basics
 ---
