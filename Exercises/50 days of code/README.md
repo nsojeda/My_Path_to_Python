@@ -5,10 +5,10 @@
 ---
 This folder documents my progress through the **50 Days of Code** challenge from the **Practical Python** Discord server. Each day contains:
 
-| File | Purpose |
-|------|---------|
-| `challenge X.md` | The challenge prompt for that day |
-| `challenge X.py` | My solution to that day's challenge |
+| File             | Purpose                             |
+| ---------------- | ----------------------------------- |
+| `challenge_X.md` | The challenge prompt for that day   |
+| `solution_X.py`  | My solution to that day's challenge |
 
 ## Credits
 ---
@@ -18,35 +18,71 @@ Challenge created by **[Zorak](https://discord.com/users/951021468693708850)** o
 
 ## Progress
 ---
-Challenges downloaded for days 1–11. Solutions not started yet.
+Challenges post copy for days 1–11. Solutions not started yet.
 
-| Day   | Challenge (.md) | Solution (.py) |
-| ----- | :-------------: | :------------: |
-| 1     |        ✅        |       ⬜        |
-| 2     |        ✅        |       ⬜        |
-| 3     |        ✅        |       ⬜        |
-| 4     |        ✅        |       ⬜        |
-| 5     |        ✅        |       ⬜        |
-| 6     |        ✅        |       ⬜        |
-| 7     |        ✅        |       ⬜        |
-| 8     |        ✅        |       ⬜        |
-| 9     |        ✅        |       ⬜        |
-| 10    |        ✅        |       ⬜        |
-| 11    |        ✅        |       ⬜        |
-| 12–50 |        ⬜        |       ⬜        |
+| Day | Challenge (.md) | Solution (.py) |
+| --- | :-------------: | :------------: |
+| 1   |        ✅        |       ⬜        |
+| 2   |        ✅        |       ⬜        |
+| 3   |        ✅        |       ⬜        |
+| 4   |        ✅        |       ⬜        |
+| 5   |        ✅        |       ⬜        |
+| 6   |        ✅        |       ⬜        |
+| 7   |        ✅        |       ⬜        |
+| 8   |        ✅        |       ⬜        |
+| 9   |        ✅        |       ⬜        |
+| 10  |        ✅        |       ⬜        |
+| 11  |        ✅        |       ⬜        |
+| 12  |        ⬜        |       ⬜        |
+| 13  |        ⬜        |       ⬜        |
+| 14  |        ⬜        |       ⬜        |
+| 15  |        ⬜        |       ⬜        |
+| 16  |        ⬜        |       ⬜        |
+| 17  |        ⬜        |       ⬜        |
+| 18  |        ⬜        |       ⬜        |
+| 19  |        ⬜        |       ⬜        |
+| 20  |        ⬜        |       ⬜        |
+| 21  |        ⬜        |       ⬜        |
+| 22  |        ⬜        |       ⬜        |
+| 23  |        ⬜        |       ⬜        |
+| 24  |        ⬜        |       ⬜        |
+| 25  |        ⬜        |       ⬜        |
+| 26  |        ⬜        |       ⬜        |
+| 27  |        ⬜        |       ⬜        |
+| 28  |        ⬜        |       ⬜        |
+| 29  |        ⬜        |       ⬜        |
+| 30  |        ⬜        |       ⬜        |
+| 31  |        ⬜        |       ⬜        |
+| 32  |        ⬜        |       ⬜        |
+| 33  |        ⬜        |       ⬜        |
+| 34  |        ⬜        |       ⬜        |
+| 35  |        ⬜        |       ⬜        |
+| 36  |        ⬜        |       ⬜        |
+| 37  |        ⬜        |       ⬜        |
+| 38  |        ⬜        |       ⬜        |
+| 39  |        ⬜        |       ⬜        |
+| 40  |        ⬜        |       ⬜        |
+| 41  |        ⬜        |       ⬜        |
+| 42  |        ⬜        |       ⬜        |
+| 43  |        ⬜        |       ⬜        |
+| 44  |        ⬜        |       ⬜        |
+| 45  |        ⬜        |       ⬜        |
+| 46  |        ⬜        |       ⬜        |
+| 47  |        ⬜        |       ⬜        |
+| 48  |        ⬜        |       ⬜        |
+| 49  |        ⬜        |       ⬜        |
+| 50  |        ⬜        |       ⬜        |
 
 ## Structure
 ---
-challenge 1.md    → Challenge description
-challenge 1.py    → My solution
+challenge_1.md    → Challenge description
+solution_1.py    → My solution
 
 challenge 2.md    → Challenge description
-challenge 2.py    → My solution
+solution_2.py    → My solution
 
 ## Notes
 ---
 - Each `.md` file contains the original challenge text.
 - Each `.py` file will contain my working solution.
 - Solutions may not be optimal — this is a learning journey.
-
-The progress table now shows exactly where you stand: prompts in hand for days 1–11, no code written yet. As you start solving, flip the ⬜ to ✅ in the Solution column, and add rows (or expand the range) as you collect more challenge files.

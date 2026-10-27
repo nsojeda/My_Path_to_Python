@@ -33,7 +33,7 @@ print(type(num1))
 # Exponent:       3 ** 2
 # Modulus:        3 % 2
 
-print('Addition: 3 + 2')
+print('\n\nAddition: 3 + 2')
 print(3 + 2)
 print('Subtraction: 3 - 2')
 print(3 - 2)
