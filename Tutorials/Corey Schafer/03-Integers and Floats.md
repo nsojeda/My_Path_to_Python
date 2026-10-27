@@ -290,8 +290,11 @@ print(num7 + num8)
 
 ```python
 print(int(num5) + int(num6))
+print(float(num5) + float(num6))
+print(float(num5) + int(num6))
 
 print(int(num5 + num6))
 
 print(int(num2) + num8)
+print(float(num2) + num8)
 ```
