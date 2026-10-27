@@ -20,19 +20,38 @@ tags:
 ---
 # Introduction and Basics
 ---
+## Integers and Floats
 
-Notes
+Python represents number using two different data types
+- integers or int
+    - integers or whole numbers 
+- floats 
+    - Floats are numbers with decimals
 
 ```python
 num = 3
 num1 = 3.14
 
 print(num)
+print(num1)
+```
+
+## type( )
+
+Python has a function  - type( ) - to find the type of variable 
+You just need to pass the variable as a argument
+
+```python
+print(num)
 print(type(num))
 
 print(num1)
 print(type(num1))
 ```
+
+## Arithmetic Operators
+
+Arithmetic operators are symbols that perform basic math on numbers.
 
 https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt
 Arithmetic Operators: 
