@@ -53,7 +53,7 @@ print(type(num1))
 
 Arithmetic operators are symbols that perform basic math on numbers.
 
-https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt
+the Following is from Corey Schafer GitHub [Python-Ints snippets](https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt "Python-Ints snippets")
 Arithmetic Operators: 
 	Addition: 3 + 2
 	Subtraction: 3 - 2
@@ -64,36 +64,51 @@ Arithmetic Operators:
 	Modulus: 3 % 2
 
 ```python
-print('Addition: 3 + 2')
-print(3 + 2)
+print(3 + 2) # =5
 
-print('Subtraction: 3 - 2')
-print(3 - 2)
+print(3 - 2) # =1
 
-print('Multiplication: 3 * 2')
-print(3 * 2)
+print(3 * 2) # =6
 
-print('Division: 3 / 2')
-print(3 / 2)
+print(3 / 2) # =1.5
+```
 
-print('Floor Division: 3 // 2')
-print(3 // 2)
+## Floor Division
 
-print('Exponent: 3 ** 2')
-print(3 ** 2)
+With normal Division you always get a float 3/2=1.5
+
+With Floor Division you always get an integer. Python rounds **down** or drop the decimals
+
+```python
+print(3 // 2) # =1
+```
+
+## Exponent
+
+When you need to square, cube or raises a number to a power you can use (\*\*)
+
+```python
+
+print(3 ** 2) # =9
 ```
 
 **Test/Extra Exercises Not in Video**
 
+If you need to find the square root of a number you use Exponent operators (\*\*) and .5
+
 ```python
-print('Exponent: 3 ** 3')
-print(3 ** 3)
+print('Exponent')
+print(3 ** 3)     # =9 cubed
+print(5 ** 2)     # =25 Squared 
+print(10 ** -1)   # =0.1 1 / 10
+print(16 ** 0.5)  # =4.0 square root
 
-print('Division: 10 / 2')
-print(10 / 2)
+print('Division')
+print(10 / 2) # =5
+print(10 / -2) # =-5
 
-print('Subtraction: 1 - 2')
-print(1 - 2)
+print('Subtraction')
+print(1 - 2) # =-1
 
 print(type(1-2))
 ```
@@ -101,41 +116,37 @@ print(type(1-2))
 # Module Arithmetic
 ---
 
-notes
+Modules shows what is left after division
 
 ```python
-print('Modulus: 2 % 2')
-print(2 % 2)
+print(2 % 2) # =0
 
-print('Modulus: 3 % 2')
-print(3 % 2)
+print(3 % 2) # =1
 
-print('Modulus: 4 % 2')
-print(4 % 2)
+print(4 % 2) # =0
 
-print('Modulus: 5 % 2')
-print(5 % 2)
+print(5 % 2) # =1 
 ```
 
 **Test/Extra Exercises Not in Video**
 
+if the first number is smaller the the second number, Python will return the first number 
+
 ```python
-print('Modulus: 2 % 3')
-print(2 % 3)
+print(2 % 3) # =2
 
-print('Modulus: 3 % 3')
-print(3 % 3)
+print(150 % 12) # =6
 
-print('Modulus: 4 % 3')
-print(4 % 3)
+print(400 % 10) # =0
 
-print('Modulus: 5 % 3')
-print(5 % 3)
+print(400 % 3) # =1
 
 ```
 
 # Order of Operations
 ---
+
+Python follow the 
 
 ```python
 print(3*2+1)
