@@ -146,10 +146,11 @@ print(400 % 3) # =1
 # Order of Operations
 ---
 
-Python follow the 
+Python follow the standard rules of operations
 
 ```python
 print(3*2+1)
+
 print(3*(2+1))
 ```
 
@@ -171,12 +172,12 @@ print(3*(2+1))
 > **Example**
 > > 
 > 3 + 6 × (5 + 4) ÷ 3² − 1
-> = 3 + 6 × 9 ÷ 3² − 1      # parentheses
-> = 3 + 6 × 9 ÷ 9 − 1       # exponent
-> = 3 + 54 ÷ 9 − 1          # multiplication (left to right)
-> = 3 + 6 − 1               # division
-> = 9 − 1                   # addition
-> = 8                       # subtraction
+>parentheses = 3 + 6 × 9 ÷ 3² − 1   
+>exponent = 3 + 6 × 9 ÷ 9 − 1       
+>multiplication (left to right) = 3 + 54 ÷ 9 − 1          
+>division = 3 + 6 − 1  
+>addition = 9 − 1                   
+>subtraction = 8                       
 > 
 > **Credit:**  
 > 
