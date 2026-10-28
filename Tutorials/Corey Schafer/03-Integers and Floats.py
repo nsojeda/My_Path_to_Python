@@ -208,11 +208,8 @@ num6 = '200'
 
 print(num5 + num6)
 
-num7 = '100'
-num8 = "200"
-
-num7 = int(num7)
-num8 = int(num8)
+num7 = int(num5)
+num8 = int(num6)
 print(num7 + num8)
 
 print('\n')
@@ -223,11 +220,6 @@ print('Test/Extra Exercises Not in Video')
 print(int(num5) + int(num6))
 print(float(num5) + float(num6))
 print(float(num5) + int(num6))
-
-print(int(num5 + num6))
-
-print(int(num2) + num8)
-print(float(num2) + num8)
 
 print(hr)
 print('\n')

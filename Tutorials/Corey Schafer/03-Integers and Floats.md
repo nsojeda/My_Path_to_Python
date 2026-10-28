@@ -38,7 +38,7 @@ print(num1)
 
 ## type( )
 
-Python has a function  - type( ) - to find the type of variable 
+Python has a function  - `type( )` - to find the type of variable 
 You just need to pass the variable as a argument
 
 ```python
@@ -85,7 +85,7 @@ print(3 // 2) # =1
 
 ## Exponent
 
-When you need to square, cube or raises a number to a power you can use (\*\*)
+When you need to square, cube or raises a number to a power you can use `**`
 
 ```python
 
@@ -94,7 +94,7 @@ print(3 ** 2) # =9
 
 **Test/Extra Exercises Not in Video**
 
-If you need to find the square root of a number you use Exponent operators (\*\*) and .5
+If you need to find the square root of a number you use Exponent operators `**` and .5
 
 ```python
 print('Exponent')
@@ -193,13 +193,24 @@ print(3*2+1/2-1)
 # Incrementing Variables
 ---
 
+Numeric variables can be modified by using Arithmetic Operators
+
+## Basic Way
+
+if num2 = 1 and you add 1, num2 is now equal to 2
+
 ```python
 num2 = 1
 print(num2)
 
 num2 = num2 + 1
 print(num2)
+```
 
+## Shortcut 
+You can take the Arithmetic Operators you want to us and place it before and equal sign, then the amount you want to increment by
+
+```python
 num2 += 1
 print(num2)
 
@@ -208,6 +219,7 @@ print(num2)
 ```
 
 **Test/Extra Exercises Not in Video**
+
 Incrementing Variables: 
 	Addition: x += 2
 	Subtraction: x -= 2
@@ -245,25 +257,47 @@ print(x)
 
 # Built-in Number Functions
 ---
+## abs()
+
+abs( ) absolute value of a number or the distance from Zero on a number line.
+
+It works by passing a number or variable as an argument
+
+5___4___3___2___1___0___-1___-2___-3___-4___-5
 
 ```python
-print(abs(-3))
+print(abs(-3)) # =3
+```
 
+## round()
+
+round(), rounds to the nearest whole number or integer
+
+```python
 print(round(3.75))
+```
 
+It works by passing a number or variable as an argument.
+but you can add to the argument by add a comma ( , ) and a number that represents the number decimals places you want. making the number a float 
+
+```python
 print(round(3.75,1))
 ```
 
 **Test/Extra Exercises Not in Video**
 
 ```python
-print(abs(num2))
+print(round(3.33))
+
+print(round(3.14159,2))
 ```
 
 # Comparison Operators
 ---
 
-https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt
+Compare two number or variable and receive a Boolean (True or False)
+
+The Following is from Corey Schafer GitHub [Python-Ints snippets](https://github.com/CoreyMSchafer/code_snippets/blob/master/Python-Ints/snippets.txt "Python-Ints snippets")
 Comparisons:
     Equal:            3 == 2
     Not Equal:        3 != 2
@@ -302,30 +336,31 @@ print(num2 <= num4)
 # Type Casting
 ---
 
+When a string holds a number '100'/"200" you can use `int( )`, so python knows it's an integer.
+
+
+With type Casting `int( )` Python will Concatenate the string together.
+
 ```python
 num5 = '100'
 num6 = '200'
+print(int(num5))
+print(int(num6))
 
 print(num5 + num6)
 
-num7 = '100'
-num8 = "200"
+print(int(num5) + int(num6))
 
-num7 = int(num7)
-num8 = int(num8)
-
-print(num7 + num8)
 ```
 
 **Test/Extra Exercises Not in Video**
+
+you can also cast and string as a float `float()`
 
 ```python
 print(int(num5) + int(num6))
 print(float(num5) + float(num6))
 print(float(num5) + int(num6))
 
-print(int(num5 + num6))
-
-print(int(num2) + num8)
-print(float(num2) + num8)
+print(int(num5) + 50)
 ```
