@@ -17,17 +17,21 @@ Once I have your treasures, I shall weave them into the tale of your destiny.
 adjective = None
 noun = None
 place_name = None
-
+character_name = None
+character_class = None
+creature = None
+villain_name = None
+magical_item = None
 
 # printf('''The Quest of the ___{adjective}___ ___{noun}___
 
-# It all began in the village of ___(place name)___, where our hero,
-# ___(character name)___, a brave ___(class: e.g. fighter, wizard)___,
-# received a scroll from a mysterious ___(creature)___.
+# It all began in the village of ___{place name}___, where our hero,
+# ___{character name}___, a brave ___{character_class}___,
+# received a scroll from a mysterious ___{creature}___.
 
-# The scroll read: "Beware! The evil ___(villain name)___ has stolen
-# the legendary ___(magical item)___! Without it, our land will fall
-# into eternal ___(noun)___!"
+# The scroll read: "Beware! The evil ___{villain_name}___ has stolen
+# the legendary ___{magical_item}___! Without it, our land will fall
+# into eternal ___{noun}___!"
 
 # Without hesitation, our hero grabbed their trusty ___(weapon)___ and
 # set off toward the ___(adjective)___ Mountains. Along the way, they
