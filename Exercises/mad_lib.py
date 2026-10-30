@@ -22,6 +22,18 @@ character_class = None
 creature = None
 villain_name = None
 magical_item = None
+weapon = None
+animal = None
+silly_name = None
+plural_noun = None
+building = None
+occupation = None
+food = None
+object = None
+liquid = None
+exclamation = None
+magical_item = None
+food = None
 
 # printf('''The Quest of the ___{adjective}___ ___{noun}___
 
@@ -33,26 +45,26 @@ magical_item = None
 # the legendary ___{magical_item}___! Without it, our land will fall
 # into eternal ___{noun}___!"
 
-# Without hesitation, our hero grabbed their trusty ___(weapon)___ and
-# set off toward the ___(adjective)___ Mountains. Along the way, they
-# befriended a talking ___(animal)___ named ___(silly name)___, who
-# offered to guide them through the Forest of ___(plural noun)___.
+# Without hesitation, our hero grabbed their trusty ___{weapon}___ and
+# set off toward the ___{adjective}___ Mountains. Along the way, they
+# befriended a talking ___{animal}___ named ___{silly_name}___, who
+# offered to guide them through the Forest of ___{plural_noun}___.
 
-# Deep in the woods, they stumbled upon a cursed ___(building)___,
-# where a grumpy ___(occupation)___ guarded the only bridge. "You may
-# pass," he growled, "only if you solve my riddle about ___(food)___!"
+# Deep in the woods, they stumbled upon a cursed ___{building}___,
+# where a grumpy ___{occupation}___ guarded the only bridge. "You may
+# pass," he growled, "only if you solve my riddle about ___{food}___!"
 
 # After cracking the riddle (barely!), they reached the villain's lair —
-# a giant ___(object)___ floating above a pit of boiling ___(liquid)___.
-# The final battle was fierce! Our hero swung their ___(weapon again)___
-# while the villain cast a spell that turned everyone into ___(plural noun)___.
+# a giant ___{object}___ floating above a pit of boiling ___{liquid}___.
+# The final battle was fierce! Our hero swung their ___{weapon}___
+# while the villain cast a spell that turned everyone into ___{plural_noun}___.
 
-# But with a mighty shout of "___(exclamation)___!", our hero broke the
-# curse, snatched back the ___(magical item)___, and defeated the
-# ___(villain name)___ once and for all.
+# But with a mighty shout of "___{exclamation}___!", our hero broke the
+# curse, snatched back the ___{magical_item}___, and defeated the
+# ___{villain_name}___ once and for all.
 
-# The kingdom threw a grand feast in their honor, where they ate ___(food)___
-# until they couldn't move. And as the bard sang songs of their ___(adjective)___
+# The kingdom threw a grand feast in their honor, where they ate ___{food}___
+# until they couldn't move. And as the bard sang songs of their ___{adjective}___
 # deeds, our hero smiled, already dreaming of the next adventure...
 
 # THE END''')
