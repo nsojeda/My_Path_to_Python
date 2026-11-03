@@ -16,6 +16,7 @@ Once I have your treasures, I shall weave them into the tale of your destiny.
 
 adjective = input('\nPlease give me an adjective:\n')
 noun = input('\nPlease give me a noun:\n')
+noun2 = input('\nPlease give me another noun:\n')
 place_name = input('\nPlease give me a place name:\n')
 character_name = input('\nPlease give me a character name:\n')
 character_class = input('\nPlease give me a character class:\n')
@@ -32,9 +33,11 @@ food = input('\nPlease give me a food:\n')
 object = input('\nPlease give me an object:\n')
 liquid = input('\nPlease give me a liquid:\n')
 exclamation = input('\nPlease give me an exclamation:\n')
-magical_item = input('\nPlease give me a magical item:\n')
 
-print(f'''The Quest of the ___{adjective}___ ___{noun}___
+print(f'''
+
+
+The Quest of the ___{adjective}___ ___{noun}___
 
 It all began in the village of ___{place_name}___, where our hero,
 ___{character_name}___, a brave ___{character_class}___,
@@ -42,7 +45,7 @@ received a scroll from a mysterious ___{creature}___.
 
 The scroll read: "Beware! The evil ___{villain_name}___ has stolen
 the legendary ___{magical_item}___! Without it, our land will fall
-into eternal ___{noun}___!"
+into eternal ___{noun2}___!"
 
 Without hesitation, our hero grabbed their trusty ___{weapon}___ and
 set off toward the ___{adjective}___ Mountains. Along the way, they
