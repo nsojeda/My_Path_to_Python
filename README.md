@@ -22,16 +22,20 @@ my_path_to_python/
 ├── Exercises/
     └── 50 days of code/ (Not Started)
         └── Challenge 1-11.md
-        └── README.md (W.I.P.)
+        └── README.md
 └── Tutorials/
-    └── Python_for_Everyone/ (Not Started)
-        └── README.md (W.I.P.)
-    └── Corey Schafer - Python Programming Beginner Tutorials
+    └── Python_for_Everyone/ 
+        └── README.md
+        ├── Chapter 01/
+        ├── Chapter 02/
+    └── Corey Schafer/ - Python Programming Beginner Tutorials
         ├── 01 - intro.py
         ├── 01 - Install and Setup.md
         ├── 02 - strings.py
         ├── 02 - Strings.md
-    └── Data with Baraa - Python Ultimate Course (not Started)
+        ├── 03 - Integers and Floats.py
+        ├── 03 - Integers and Floats.md
+    └── Data with Baraa/ - Python Ultimate Course (not Started)
         ├── 03 - Comments.md
         ├── 03 - Comments.py
 ```
