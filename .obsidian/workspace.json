@@ -11,10 +11,14 @@
             "id": "d7f95bc6dfb17eb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/Python_for_Everyone/Chapter-01/1.3 Computer Hardware Architecture.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1.3 Computer Hardware Architecture"
             }
           }
         ]
@@ -182,5 +186,11 @@
     }
   },
   "active": "d7f95bc6dfb17eb0",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Tutorials/Python_for_Everyone/Chapter-01/1.4 hello_world.py",
+    "Tutorials/Python_for_Everyone/Chapter-01/01.0-4hello_world.py",
+    "Tutorials/Python_for_Everyone/Chapter-01/hello_world.py",
+    "Tutorials/Python_for_Everyone/Chapter-01/1.1 Why should you learn to write programs.md",
+    "Tutorials/Python_for_Everyone/README.md"
+  ]
 }
