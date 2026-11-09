@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Python_for_Everyone/Chapter-01/1.3 Computer Hardware Architecture.md",
+                "file": "Tutorials/Python_for_Everyone/Chapter-01/1.7 Terminology - Interpreter and Compiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Computer Hardware Architecture"
+              "title": "1.7 Terminology - Interpreter and Compiler"
             }
           }
         ]
@@ -187,10 +187,18 @@
   },
   "active": "d7f95bc6dfb17eb0",
   "lastOpenFiles": [
+    "Python_Knowledge/High-Level Language (Python) vs Machine Language & Translators.md",
+    "Tutorials/Python_for_Everyone/Chapter-01/1.7 Terminology - Interpreter and Compiler.md",
+    "Tutorials/Python_for_Everyone/Chapter-01/1.6 Conversing with Python.md",
+    "Tutorials/Python_for_Everyone/Chapter-01/1.5 Words and Sentences.md",
+    "Tutorials/Python_for_Everyone/Chapter-01/1.3 Computer Hardware Architecture.md",
+    "Tutorials/Python_for_Everyone/Chapter-01/1.1 Why should you learn to write programs.md",
+    "README.md",
+    "Tutorials/Python_for_Everyone/Chapter-01/1.5.1 hello_world.py",
+    "Untitled.md",
     "Tutorials/Python_for_Everyone/Chapter-01/1.4 hello_world.py",
     "Tutorials/Python_for_Everyone/Chapter-01/01.0-4hello_world.py",
     "Tutorials/Python_for_Everyone/Chapter-01/hello_world.py",
-    "Tutorials/Python_for_Everyone/Chapter-01/1.1 Why should you learn to write programs.md",
     "Tutorials/Python_for_Everyone/README.md"
   ]
 }
