@@ -28,13 +28,13 @@ source: Leo (Brave AI Assistant)
 
 ## 2. The Translators: Compilers vs Interpreters
 
-| Feature | [[Compiler]] | [[Interpreter]] |
-| :--- | :--- | :--- |
-| **Method** | Translates **entire** source code *before* execution | Translates/executes **line-by-line** at runtime |
-| **Output** | Standalone executable (`.exe`, binary) | No separate output; runs from source |
-| **Speed** | Faster execution (translation happens once) | Slower execution (translation every run) |
-| **Errors** | Reports all errors before running | Stops at first error during execution |
-| **Examples** | C++, Rust, Go, Swift | Python, Ruby, JavaScript |
+| Feature      | [[Compiler]]                                         | [[Interpreter]]                                 |
+| :----------- | :--------------------------------------------------- | :---------------------------------------------- |
+| **Method**   | Translates **entire** source code *before* execution | Translates/executes **line-by-line** at runtime |
+| **Output**   | Standalone executable (`.exe`, binary)               | No separate output; runs from source            |
+| **Speed**    | Faster execution (translation happens once)          | Slower execution (translation every run)        |
+| **Errors**   | Reports all errors before running                    | Stops at first error during execution           |
+| **Examples** | C++, Rust, Go, Swift                                 | Python, Ruby, JavaScript                        |
 
 ---
 
