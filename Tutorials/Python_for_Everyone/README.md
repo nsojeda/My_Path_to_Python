@@ -18,7 +18,7 @@ Each chapter has its own folder for notes, exercises, and solutions.
 
 | Chapter | Status             |
 | ------- | ------------------ |
-| 1       | 🔄 **In Progress** |
+| 1       | ✅ **Completed**    |
 | 2       | 🔄 **In Progress** |
 | 3       | ⬜ Not Started      |
 | 4       | ⬜ Not Started      |
