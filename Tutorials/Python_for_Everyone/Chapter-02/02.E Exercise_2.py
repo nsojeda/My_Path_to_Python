@@ -1,4 +1,4 @@
-#Source: py4e.com
+#Source: py4e.com lessons 3 and Book/Libretexts.org Chapter 2 https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Python_for_Everybody_4e_(Severance)/02%3A_Variables_Expressions_and_Statements/2.0E%3A_2.E%3A_Variables_Expressions_and_Statements_(Exercises)
 #Teacher/Creator: Chuck Severance
 #Course: Programming for Everybody (PY4E)
 #Lesson: 02 - Variables, expressions and statements
