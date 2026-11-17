@@ -11,10 +11,14 @@
             "id": "d7f95bc6dfb17eb0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.07 Catching exceptions Using Try and Except.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03.07 Catching exceptions Using Try and Except"
             }
           }
         ]
@@ -181,9 +185,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "d7f95bc6dfb17eb0",
+  "active": "4c7b00e0890ef9a8",
   "lastOpenFiles": [
-    "Clippings/3.4 Alternative Execution.md",
+    "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.06 Nested Conditionals.md",
+    "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.07 Catching exceptions Using Try and Except.md",
+    "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.05 Chained Conditionals.md",
+    "Clippings/3.5 Chained Conditionals.md",
+    "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.04 Alternative Execution.md",
     "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.03 Conditional Execution.md",
     "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.02 Logical Operators.md",
     "Tutorials/Python_for_Everyone/Chapter - 03 Conditional Execution/03.01 Boolean Expressions.md",
@@ -211,10 +219,6 @@
     "Tutorials/Python_for_Everyone/Chapter - 01 Introduction/01.11 What could possibly go wrong.md",
     "Tutorials/Python_for_Everyone/Chapter - 01 Introduction/01.09 What is a program.md",
     "Tutorials/Python_for_Everyone/Chapter - 01 Introduction/01.08 Writing a Program.md",
-    "Tutorials/Python_for_Everyone/Chapter - 01 Introduction/01.07 Terminology - Interpreter and Compiler.md",
-    "Tutorials/Python_for_Everyone/Chapter - 01 Introduction/01.06 Conversing with Python.md",
-    "Tutorials/Python_for_Everyone/Chapter - 01 Introduction/01.05 Words and Sentences.md",
-    "Tutorials/Python_for_Everyone/Chapter - 01 Introduction/01.03 Computer Hardware Architecture.md",
     "Tutorials/Python_for_Everyone/Chapter - 01 Introduction",
     "Clippings",
     "Tutorials/Python_for_Everyone/Chapter-01/1.5.1 hello_world.py",
